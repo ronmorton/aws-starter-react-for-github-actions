@@ -5,7 +5,7 @@ frontend:
       commands:
     preBuild:
       commands:
-        - npm install
+        - npm install node@20.5.0
     build:
       commands:
         - yarn -v
