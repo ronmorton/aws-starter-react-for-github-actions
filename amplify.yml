@@ -7,6 +7,9 @@ frontend:
       commands:
         - node -v
         - npm -v
+        - npm use 18
+        - node -v
+        - npm -v
         - npm install
     build:
       commands:
