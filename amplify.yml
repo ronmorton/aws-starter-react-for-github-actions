@@ -9,6 +9,9 @@ frontend:
         - yarn install
     build:
       commands:
+        - yarn -v
+        - node -v
+        - tsc -v
         - yarn run build
   artifacts:
     baseDirectory: build
